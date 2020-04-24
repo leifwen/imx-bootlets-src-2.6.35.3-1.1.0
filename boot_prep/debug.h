@@ -34,7 +34,10 @@
 
 #ifndef _DEBUG_H_
 #define _DEBUG_H_
-void putc(char ch);
-void printhex(int data);
-void printf(char *fmt, ...);
+void DDuartEnable(void);
+void DPutc(char ch);
+void DPrinthex(int data);
+void DPrintf(char *fmt, ...);
+void DBeep(void);
+void DDelay(unsigned int microSec);
 #endif
